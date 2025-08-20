@@ -34,4 +34,7 @@ build/
 
 ### .yml ###
 src/main/resources/application.yml
+
+# Secret files
+src/main/resources/secrets.properties
 src/main/resources/secrets.yml

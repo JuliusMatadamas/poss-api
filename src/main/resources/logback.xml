@@ -1,12 +1,3 @@
 <configuration>
-    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
-        <withJansi>true</withJansi>
-        <encoder>
-            <pattern>%d{HH:mm:ss} %highlight(%-5level){INFO=green, WARN=yellow, DEBUG=yellow, ERROR=red} %msg%n</pattern>
-        </encoder>
-    </appender>
-
-    <root level="INFO">
-        <appender-ref ref="CONSOLE"/>
-    </root>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
 </configuration>

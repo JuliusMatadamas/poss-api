@@ -1,4 +1,4 @@
-package com.poss.service.admin;
+package com.poss.services.admin;
 
 import com.poss.dto.ApiResponseDTO;
 import com.poss.dto.admin.GeneroDTO;

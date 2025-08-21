@@ -1,4 +1,4 @@
-package com.poss.repository.admin;
+package com.poss.repositories.admin;
 
 import com.poss.entities.admin.Genero;
 import org.springframework.data.jpa.repository.JpaRepository;

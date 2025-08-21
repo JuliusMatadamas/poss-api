@@ -2,7 +2,8 @@ package com.poss.controllers.admin;
 
 import com.poss.dto.ApiResponseDTO;
 import com.poss.dto.admin.GeneroDTO;
-import com.poss.service.admin.GeneroService;
+import com.poss.services.admin.GeneroService;
+
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

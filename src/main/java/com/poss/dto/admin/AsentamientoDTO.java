@@ -17,7 +17,7 @@ public class AsentamientoDTO {
 
     @NotBlank(message = "El nombre del asentamiento no puede estar vacío.")
     @Size(max = 45, message = "El nombre del asentamiento no puede exceder los 45 caracteres.")
-        @Pattern(regexp = "^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚüÜ .,'()\\[\\]_/#°-]*$", message = "El nombre contiene caracteres no permitidos.")
+	@Pattern(regexp = "^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚüÜ .,'()\\[\\]_/#°-]*$", message = "El nombre contiene caracteres no permitidos.")
     private String nombre;
 
     @NotNull(message = "El ID del código postal no puede ser nulo.")
